@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-maine-code",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Maine Revised Statutes — state statutes by citation.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-5b4b72090e1b37fbee1c69b1b59277064a99855790be929d59529b61ad19cf5c",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-6a3636c825ab6adaeee8b67030345cfc9b5f161844d9ff9c73fe3740a18fb804",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
