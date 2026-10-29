@@ -1,0 +1,23 @@
+[
+  {
+    "name": "me_revised_statute",
+    "description": "Get the FULL TEXT of a section of the Maine Revised Statutes — Maine state law — by citation. \"17-A M.R.S. 201\" is murder. Returns the statutory text. Keyless. Use for \"what does Maine Title 17-A section 201 say\" or to check a Maine statute a case relies on.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Maine title, e.g. \"17-A\" (crimes), \"29-A\" (motor vehicles), \"19-A\" (domestic relations)."
+        },
+        "section": {
+          "type": "string",
+          "description": "Section within the title, e.g. \"201\" (murder) or \"2411\" (OUI)."
+        }
+      },
+      "required": [
+        "title",
+        "section"
+      ]
+    }
+  }
+]
